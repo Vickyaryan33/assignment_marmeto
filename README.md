@@ -9,3 +9,6 @@ Similarly, click on the button representing your preferred size. The selected si
 ## 3. Determine Quantity:
 To specify the quantity you wish to purchase, click on the buttons indicating the desired quantity. Each click will increment the quantity count.
 That's it! Using these buttons, you can effortlessly tailor your product selection to your preferences.
+
+# Live link :
+ - https://vickyaryan33.github.io/assignment_marmeto/
