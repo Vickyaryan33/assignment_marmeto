@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img  src="img/main.jpg">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="img/img4.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="img/img2.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="img/img3.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="img/img4.jpg" onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+     
+        <div class="right">
+            <p id="v7 "> Marmeto</p>
+            <div class="pname">Embrace Sideboard</div>
+            <hr>
+            <div class="price" > <span><b> $12999.00</b></span> <span class="discount">35% Off</span></div>
+            <div ><s>$19999.00</s> </div>
+            <hr>
+            <div>Choose a Color</div>
+  <div class="flex-container">
+    <div id="v1" class="color-option" data-color="red"></div>
+    <div id="v2" class="color-option" data-color="blue"></div>
+    <div id="v3" class="color-option" data-color="green"></div>
+    <div id="v4" class="color-option" data-color="yellow"></div>
+  </div>
+           
+
+            <!-- Color options here -->
+            <div class="choose-size">Choose a Size</div>
+  
+            <!-- Size options here -->
+            <div class="size-options">
+                <label for="small">Small</label>
+                <input type="radio" id="small" name="size" value="small">
+                <label for="medium">Medium</label>
+                <input type="radio" id="medium" name="size" value="medium">
+                <label for="large">Large</label>
+                <input type="radio" id="large" name="size" value="large">
+                <label for="large">Extra Large</label>
+                <input type="radio" id="large" name="size" value="large">
+                <label for="large">XL</label>
+                <input type="radio" id="large" name="size" value="large">
+              </div>
+            
+
+              <!--  increament and decrement -->
+             
+            
+            <div class="container" align="center">
+                <form id="form" >
+                    <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                    <input type="number" id="number" value="0" />
+                    <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                  </form>
+               <!--  add to cart -->
+                  <p  id="v7">
+                    <button type="button" id="addToCartBtn" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                        <b>Add to Cart</b>
+                    </button>
+                </p>
+            </div>
+            <hr>
+            <div class="description">
+                <p>The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.</p>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet"
+    href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+
+
+<!--CSS Code-->
+<script src="script.js"></script>
+
+
+
+<!--  my name is vicky kumar -->
+</body>
+</html>
